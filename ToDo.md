@@ -11,14 +11,10 @@
 
 ## Fontok:
 
-**Menü**:     [Nunito][nunito-font]
-
-**H2**:       [Lora]
-
-**H1**:       [Encode-Sans][encoce-sans]
-
-**Text**:     [Hamlet]
-
+**Menü**:     [Nunito][nunito-font] <br>
+**H2**:       [Lora] <br>
+**H1**:       [Encode-Sans][encoce-sans] <br>
+**Text**:     [Hamlet] <br>
 **Examples**: [Top 20 Google font][google-top20font]
 
 [nunito-font]:https://fonts.google.com/specimen/Nunito#standard-styles
