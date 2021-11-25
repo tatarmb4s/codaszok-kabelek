@@ -9,12 +9,9 @@
     Táp kábelek
     (Egyéb kábelek, de ezen még gonlokozom hogy mi lehet bele)
 
-<!-- blank line -->
-----
-<!-- blank line -->
 ## Fontok:
     # Válasszatok Fontot!!!
-    Menü:    https://fonts.google.com/specimen/Nunito#standard-styles
+    Menü:    [Nunito] [Nunito]:https://fonts.google.com/specimen/Nunito#standard-styles
     H2:      https://fonts.google.com/specimen/Lora
     H1:      https://fonts.google.com/specimen/Encode+Sans
     Text:    https://fonts.google.com/specimen/Hahmlet
