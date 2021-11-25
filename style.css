@@ -5,6 +5,18 @@ font-family: 'Lora', serif;
 font-family: 'Nunito', sans-serif;
 */
 
+nav {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+}
+
 a.navbar-brand {
     white-space: normal;
     text-align: center;
@@ -69,6 +81,11 @@ a.navbar-brand {
     margin-left: 75px;
     font-family: 'Hahmlet', serif;
   }
+
+  #maindiv {
+      padding-top: 25px;
+  }
+
   .footer {
     position: absolute;
     bottom: 0;
