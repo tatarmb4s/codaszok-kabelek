@@ -1,21 +1,21 @@
-# Tennivalók
+# Tennivalók:
 <!-- blank line -->
 ----
 <!-- blank line -->
 ## Menüpontok:
-    Képátviteli kábelek
-    USB Kábelek
-    Hálózati kábelek
-    Táp kábelek
-    (Egyéb kábelek, de ezen még gonlokozom hogy mi lehet bele)
+ - Képátviteli kábelek
+ - USB Kábelek
+ - Hálózati kábelek
+ - Táp kábelek
+ - (Egyéb kábelek, de ezen még gonlokozom hogy mi lehet bele)
 
 ## Fontok:
 
-**Menü**:     [Nunito][nunito-font] <br>
-**H2**:       [Lora] <br>
-**H1**:       [Encode-Sans][encoce-sans] <br>
-**Text**:     [Hamlet] <br>
-**Examples**: [Top 20 Google font][google-top20font]
+ - **Menü**:     [Nunito][nunito-font] <br>
+ - **H2**:       [Lora] <br>
+ - **H1**:       [Encode-Sans][encoce-sans] <br>
+ - **Text**:     [Hamlet] <br>
+ - **Examples**: [Top 20 Google font][google-top20font]
 
 [nunito-font]:https://fonts.google.com/specimen/Nunito#standard-styles
 [lora]:https://fonts.google.com/specimen/Lora
