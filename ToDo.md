@@ -11,11 +11,11 @@
 
 ## Fontok:
     # Válasszatok Fontot!!!
-    Menü:    [Nunito]
+    Menü:    [Nunito][nunito-font]
     H2:      https://fonts.google.com/specimen/Lora
     H1:      https://fonts.google.com/specimen/Encode+Sans
     Text:    https://fonts.google.com/specimen/Hahmlet
 
     Examples: https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html
 
-[Nunito]:https://fonts.google.com/specimen/Nunito#standard-styles
+[nunito-font]:https://fonts.google.com/specimen/Nunito#standard-styles
