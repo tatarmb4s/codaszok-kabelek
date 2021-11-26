@@ -51,6 +51,7 @@ min-height: 100%;
 body {
 margin-bottom: 60px;
 font-family: 'Hahmlet', serif;
+color: red;
 }
 
 #maindiv {
