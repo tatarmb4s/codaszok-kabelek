@@ -23,8 +23,12 @@ color: #0366d6;
 
 p {
     font-size: 1.2rem;
+    text-indent: 2rem;
 }
 
+figure {
+    margin-bottom: 4.5rem;
+}
 
 .btn-primary {
 color: rgb(255, 255, 255);
