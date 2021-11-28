@@ -21,6 +21,10 @@ a {
 color: #0366d6;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 
 .btn-primary {
 color: rgb(255, 255, 255);
@@ -35,7 +39,7 @@ border-color: #1861ac;
 }
 
 html {
-font-size: 14px;
+font-size: 1.1rem;
 }
 @media (min-width: 768px) {
 html {
