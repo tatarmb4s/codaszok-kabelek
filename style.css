@@ -61,11 +61,29 @@ margin-bottom: 60px;
 font-family: 'Hahmlet', serif;
 }
 
-#maindiv {
-    padding-top: 25px;
-    padding-right: 75px;
-    padding-left: 75px;
+.img-kocka {
+    width: 30rem;
 }
+
+@media (max-width: 528px) {
+    .img-kocka {
+        width: 20rem;
+    }
+  }
+
+#maindiv {
+    padding-top: 2.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+    #maindiv {
+        padding-top: 2.5rem;
+        padding-right: 7.5rem;
+        padding-left: 7.5rem;
+    }
+  }
 
 .footer {
 position: absolute;
