@@ -42,6 +42,11 @@ background-color: #1b6ec2;
 border-color: #1861ac;
 }
 
+.img-termek {
+    width: 20rem;
+
+}
+
 html {
 font-size: 1.1rem;
 }
@@ -84,3 +89,15 @@ font-family: 'Hahmlet', serif;
         padding-left: 7.5rem;
     }
   }
+
+.codaszok {
+    font-family: 'Nunito', sans-serif;  
+    color: hsl(185, 100%, 50%);
+    font-size: calc(2rem + 2.1vw);
+}
+
+footer {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    
+}

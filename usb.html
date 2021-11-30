@@ -16,7 +16,12 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <!--<a href="#" class="navbar-brand mb-0 h1"><img src="img/Logo_JustName_Trans.png" alt="CodaszokLogo" style="width: 150px;"></a>-->
     <div class="container">
-        <a href="#" class="navbar-brand mb-0 h1"><img src="img/JustLogoTrans522.png" alt="CodaszokLogo" style="width: 35px; margin-top: -10px;"> USB Fajtái</a>
+        <a href="http://codaszok.tk/" target="_blank" class="navbar-brand mb-0 h1">
+            <img src="img/JustLogoTrans522.png" alt="CodaszokLogo" style="width: 35px; margin-top: -10px;">
+        </a>
+        <a href="#" class="navbar-brand mb-0 h1">
+            USB Fajtái
+        </a>
         <button
         type="button"
         data-bs-toggle="collapse"
@@ -29,22 +34,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <!--!
-                    <li class="nav-item"><a class="button" href="index.html">Kábeltípusok</a></li>
-                
-                <li class="nav-item active"><a class="nav-link" href="index.html">Kábeltípusok</a></li>
-                <li class="nav-item active"><a class="nav-link" href="index.html">Képátviteli kábelek</a></li>
-                <li class="nav-item active"><a class="nav-link" href="usb.html">USB Kábelek</a></li>
-                <li class="nav-item active"><a class="nav-link" href="index.html">Hálózati Kábelek</a></li>
-                <li class="nav-item active"><a class="nav-link" href="index.html">Táp Kábelek</a></li>-->
+                <li class="nav-item active"><a class="nav-link" href="index.html">Főoldal - Kábeltípusok</a></li>
                 <li class="nav-item active dropdown">
                     <a class="nav-link dropdown-toggle" id="navDatadrop" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="index.html">
                         Adat kábelek
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navDatadrop">
-                        <li><a href="#" class="dropdown-item">USB Kábelek</a></li>
-                        <li><a href="#" class="dropdown-item">Hálózati Kábelek</a></li>
-                        <li><a href="#" class="dropdown-item">Meghajtókábelek</a></li>
+                        <li><a href="usb.html" class="dropdown-item">USB Kábelek</a></li>
+                        <li><a href="halozati.html" class="dropdown-item">Hálózati Kábelek</a></li>
+                        <li><a href="meghajtokabelek.html" class="dropdown-item">Meghajtókábelek</a></li>
                     </ul>
                 </li>
 
@@ -59,12 +57,12 @@
                 </li>
 
                 <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" id="navPSUdrop" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="index.html">
+                    <a class="nav-link dropdown-toggle" id="navPSUdrop" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
                         Hálózati / Táp kábelek
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navPSUdrop">
-                        <li><a href="#" class="dropdown-item">ID 1</a></li>
-                        <li><a href="#" class="dropdown-item">ID 2</a></li>
+                        <li><a href="tapok.html#id1" class="dropdown-item">ID 1</a></li>
+                        <li><a href="tapok.html#id2" class="dropdown-item">ID 2</a></li>
                     </ul>
                 </li>
             </ul>
@@ -118,7 +116,45 @@
             </figcaption> 
         </figure>
 
+        <h2 class="display-4">Ajánló lista:</h2>
+
+        <div class="ajanlolistaelem">
+            <h2 class="display-6">Termécsalád név:</h2>
+            <p>
+                Mire jók ezek a termékek? Miért azt ajánlod? Specifikációi, stb... Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#Árikeresős link" target="_blank" role="button" class="btn btn-secondary ">
+                
+                <figure class="figure"> 
+                    <img class="figure-img img-fluid rounded img-termek" src="img/usb2connectors.png" alt="alt szöveg">
+                    <figcaption class="figure-caption text-end">
+                        <span class="badge bg-info text-light" style="font-size: 1.2rem;">Termék neve</span>
+                    </figcaption> 
+                </figure> 
+            </a>
+            <p></p>
+        </div>
+
+        <div class="ajanlolistaelem">
+            <h2 class="display-6">Termécsalád név:</h2>
+            <p>
+                Mire jók ezek a termékek? Miért azt ajánlod? Specifikációi, stb... Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#Árikeresős link" target="_blank" role="button" class="btn btn-secondary ">
+                
+                <figure class="figure"> 
+                    <img class="figure-img img-fluid rounded img-termek" src="img/usb2connectors.png" alt="alt szöveg">
+                    <figcaption class="figure-caption text-end">
+                        <span class="badge bg-info text-light" style="font-size: 1.2rem;">Termék neve</span>
+                    </figcaption> 
+                </figure> 
+            </a>
+            <p></p>
+        </div>
+
+
     </div>
+    <p></p>
 </div>
 
 <footer class="bg-light text-center text-lg-start">
@@ -134,7 +170,7 @@
     
         <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Codaszok</h5>
+                <h5 class="codaszok">Codaszok</h5>
     
                 <p>
                     A weboldal ezen részét a Codaszok csapata készítette, Tatár Mátyás Bence, Tóth Bertala, és Tőzsér Barnabás részvételével. 
@@ -153,19 +189,6 @@
     <!-- Copyright -->
     </footer>
 
-<!--
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-crossorigin="anonymous"></script>
-
-<script src="js/bootstrap.bundle.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.js"></script>
-<script src="js/bootstrap.js"></script> 
--->
-<!---->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
