@@ -92,4 +92,18 @@ width: 100%;
 white-space: nowrap;
 line-height: 60px; /* Vertically center the text there */
 }
-  
+
+.osszehasonlitas {
+    
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family: 'Lora', serif;
+}
+
+@media (min-width: 1200px) {
+    .osszehasonlitas {
+        margin-left: 16rem;
+        margin-right: 16rem;
+        font-family: 'Lora', serif;
+    }
+  }
