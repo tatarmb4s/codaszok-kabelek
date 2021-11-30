@@ -524,11 +524,12 @@ progress {
   font-size: calc(0.8275rem + 2.7vw);
   font-weight: 600;
   line-height: 1.35;
-  text-indent: -30px;
+
 }
 @media (min-width: 1200px) {
   .display-4 {
     font-size: 3.5rem;
+    text-indent: -30px;
   }
 }
 
@@ -548,11 +549,12 @@ progress {
   font-weight: 600;
   line-height: 1;
   text-decoration: underline;
-  text-indent: -15px;
+
 }
 @media (min-width: 1200px) {
   .display-6 {
     font-size: 2rem;
+    text-indent: -15px;
   }
 }
 
