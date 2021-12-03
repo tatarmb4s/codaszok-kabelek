@@ -4,21 +4,45 @@ font-family: 'Hahmlet', serif;
 font-family: 'Lora', serif;
 font-family: 'Nunito', sans-serif;
 */
+root {
+
+}
 
 nav {
     font-family: 'Nunito', sans-serif;
+}
+
+h2 h3 h4 h5 h6 {
+    font-family: 'Lora', serif;
 }
 
 h1 {
     font-family: 'Encode Sans', sans-serif;
 }
 
+.focimnev {
+    color: rgb(238, 71, 29);
+}
+
 h2 {
-    font-family: 'Lora', serif;
+    /*color: rgb(0, 255, 115);*/
+    color: rgb(0, 255, 90);
+}
+
+h3 {
+    color: rgb(255, 166, 0);
+}
+
+h4 {
+ color: rgb(255, 0, 0);
+}
+
+h5 {
+    color: rgb(252, 255, 79);
 }
 
 a {
-color: #0366d6;
+color: #03cfd6;
 }
 
 p {
@@ -65,6 +89,8 @@ font-size: 1rem;
 body {
 margin-bottom: 60px;
 font-family: 'Hahmlet', serif;
+background-color: rgb(0, 24, 37);
+color: rgb(255, 255, 255);
 }
 
 .img-kocka {
@@ -81,6 +107,10 @@ font-family: 'Hahmlet', serif;
     padding-top: 2.5rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+}
+
+a {
+    color: turquoise;
 }
 
 @media (min-width: 1200px) {
@@ -108,7 +138,7 @@ footer {
     font-weight: 600;
     line-height: 1;
     text-decoration: underline;
-    padding-bottom: 40PX;
+    /*padding-bottom: 40PX;*/
   
   }
   @media (min-width: 1200px) {
