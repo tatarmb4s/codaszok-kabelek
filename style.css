@@ -48,17 +48,18 @@ border-color: #1861ac;
 }
 
 html {
-font-size: 1.1rem;
+    font-size: calc(0.575rem + 1.5vw);
 }
 @media (min-width: 768px) {
-html {
-    font-size: 16px;
-}
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
 position: relative;
 min-height: 100%;
+font-size: 1rem;
 }
 
 body {
@@ -92,7 +93,7 @@ font-family: 'Hahmlet', serif;
 
 .codaszok {
     font-family: 'Nunito', sans-serif;  
-    color: hsl(185, 100%, 50%);
+    color: hsl(185, 100%, 50%);;
     font-size: calc(2rem + 2.1vw);
 }
 
@@ -101,3 +102,17 @@ footer {
     font-weight: 300;
     
 }
+
+.ajanlo-title {
+    font-size: calc(0.675rem + 1.5vw);
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: underline;
+    padding-bottom: 40PX;
+  
+  }
+  @media (min-width: 1200px) {
+    .ajanlo-title {
+      font-size: 1.4rem;
+    }
+  }

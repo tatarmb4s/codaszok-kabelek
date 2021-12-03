@@ -488,7 +488,7 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(0.825rem + 4.5vw);
+  font-size: calc(1.525rem + 4.5vw);
   font-weight: 800;
   line-height: 1.2;
 }
@@ -499,7 +499,7 @@ progress {
 }
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: calc(1.475rem + 3.9vw);
   font-weight: 300;
   line-height: 1.2;
 }
@@ -510,7 +510,7 @@ progress {
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: calc(1.325rem + 3.3vw);
   font-weight: 300;
   line-height: 1.2;
 }
@@ -521,7 +521,7 @@ progress {
 }
 
 .display-4 {
-  font-size: calc(0.8275rem + 2.7vw);
+  font-size: calc(1.275rem + 2.7vw);
   font-weight: 600;
   line-height: 1.35;
 
@@ -534,7 +534,7 @@ progress {
 }
 
 .display-5 {
-  font-size: calc(0.725rem + 2.1vw);
+  font-size: calc(0.925rem + 2.1vw);
   font-weight: 600;
   line-height: 1.1;
 }
@@ -545,7 +545,7 @@ progress {
 }
 
 .display-6 {
-  font-size: calc(0.675rem + 1.5vw);
+  font-size: calc(0.875rem + 1.5vw);
   font-weight: 600;
   line-height: 1;
   text-decoration: underline;
