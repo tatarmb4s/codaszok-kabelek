@@ -146,8 +146,7 @@
 
 .menu-link {
     position: relative;
-    display: inline-block;
-    color: #03e9f4;
+    
     text-decoration: none;
     overflow: hidden;
     transition: 0.5s;
@@ -168,8 +167,18 @@
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg,transparent,#03e9f4);
-    animation: MeNUanimate1 1s linear ;
+    animation: MeNUanimate1 1s linear;
 }
+
+.menu-link:active span:nth-child(1){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: MeNUanimate1 0.5s linear infinite;
+}
+
 @keyframes MeNUanimate1 {
     0%{
         right: 100%;
