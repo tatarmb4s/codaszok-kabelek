@@ -84,8 +84,7 @@
 <div id="maindiv" class="text-justify">
     <div class="text-center">
         <h1 class="display-1"><focim class="focimnev">USB</focim> Kábelek</h1>
-        <!--<p>Ön most a <a href="http://www.njszki.hu" target="_blank">Neumann János Informatikai Technikum</a> egyik osztályának weboldalát olvassa.</p> --><br>
-    </div>
+<div class="mt-5"></div>    </div>
     
     
     <div class="text-justify">
@@ -103,7 +102,7 @@
         <figure class="figure"> 
             <img class="figure-img img-fluid rounded img-kocka" src="img/usbA_B.jpg" alt="USB B és A"> 
             <figcaption class="figure-caption text-end">
-              <i>Lorem (<a href="http://" class="alplink" target="_blank">USB B és A</a>)</i>
+              <i>USB B és A</i>
             </figcaption> 
         </figure>
         
@@ -138,7 +137,7 @@
             USB kábel vásárlásakor nem árt előre tisztázni milyen célból teszem azt. Fontos megnézni a specifikációját annak az eszköznek amelyiket használni szeretnéd vele. Érdemes minél gyorsabb, de még kompatibilis USB kábelt választani. A és C kábelek visszafelé kompatibilisek és így akkor a későbbiekben tudod gyorsabb eszközöknél is használni.
         </p>
         <figure class="figure"> 
-            <img class="figure-img img-fluid rounded" src="https://qph.fs.quoracdn.net/main-qimg-790330c7c6fb47f6d7913b7275cc9273" alt="USB Sebességek"> 
+            <img class="figure-img img-fluid rounded" src="img/usbSpeeds.png" alt="USB Sebességek"> 
             <figcaption class="figure-caption text-end">
                 <i>Az USB verziók sebessége (<a href="https://qph.fs.quoracdn.net/main-qimg-790330c7c6fb47f6d7913b7275cc9273" class="alplink" target="_blank">Quoracdn.net</a>)</i>
             </figcaption> 
@@ -154,7 +153,7 @@
             <div class="row">
                 <div class="ajanlolistaelem col-md-4">
                     <div class="card">
-                        <img src="https://media.icdn.hu/product/GalleryMod/2016-01/330109/resp/1673068_delock_sata___tap_usb_30_atalakito_fekete_20cm_61883.webp" alt="SATA 3 Átalakító" class="card-img-top">
+                        <img src="img/usbToSata.webp" alt="SATA 3 Átalakító" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title ajanlo-title">SATA 3 Átalakító</h5>
                             <p class="card-text">2.5”-os HDD (<span class="kiemelt">A 3.5”os-t nem bírja elég árammal ellátni.</span>) vagy SSD csatlakoztatására USB 3.0 SATA átalakító</p>
@@ -165,7 +164,7 @@
                 </div>
                 <div class="ajanlolistaelem col-md-4">
                     <div class="card">
-                        <img src="https://media.icdn.hu/product/GalleryMod/2021-04/696935/resp/1688603_silicon_power_boost_su20.webp" alt="Silicon Power USB C dokkoló" class="card-img-top">
+                        <img src="img/siliconChub.webp" alt="Silicon Power USB C dokkoló" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title ajanlo-title">Silicon Power USB C dokkoló</h5>
                             <p class="card-text">Viszonylag olcsó, és megbízható termék. Rendelkezik 3 db USB Type A 3.2Gen1-s portal, egy Micro SD és egy SD kártyaolvasóval, és Type C-s USB 3.2Gen2-vel amely használható további bővítésre és 60W-al tölthető. A HDMI portján keresztül alkalmas 4K 30HZ-s kép továbbítására is. Ethernet sajnos nem található benne, és az Audió is lemaradt.</p>
@@ -176,7 +175,7 @@
                 </div>
                 <div class="ajanlolistaelem col-md-4">
                     <div class="card">
-                        <img src="https://media.icdn.hu/product/GalleryMod/2019-07/565186/resp/1273599_raidsonic_ib_dk4040_cpd_usb_type_c_dockingstation_with_two_video_interfaces.webp" alt="Raid Sonic USB C dokkoló Ethernettel és VGA-portal" class="card-img-top">
+                        <img src="img/raidsonic_c_hub.webp" alt="Raid Sonic USB C dokkoló Ethernettel és VGA-portal" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title ajanlo-title">Raid Sonic USB C dokkoló Ethernettel és VGA-portal</h5>
                             <p class="card-text">Ez egy drágább termék, viszont megéri az árát ha valakinek tényleg szüksége van rá. Portjait tekintve kapunk 3 db USB Type A 3.2Gen1-et, 1 db Gigabites LAN-t, SD és Micro SD kátyaolvasót, 3.5mm-es Jacket. Képátvitelre VGA porton keresztül van lehetőség maximum 1080p 60HZ-el, és HDMI porton keresztül 4K 30HZ-el. </p>
@@ -225,5 +224,13 @@
     <!-- Copyright -->
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+    })
+</script>
+
 </body>
 </html>

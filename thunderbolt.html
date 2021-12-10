@@ -83,42 +83,62 @@
 
 <div id="maindiv" class="text-justify">
     <div class="text-center">
-        <h1 class="display-1"><focim class="focimnev">Kábeltípus / oldal</focim> neve</h1>
-        <!--<p>Ön most a <a href="http://www.njszki.hu" target="_blank">Neumann János Informatikai Technikum</a> egyik osztályának weboldalát olvassa.</p> --><br>
-    </div>
+        <h1 class="display-1"><focim class="focimnev">Thunderbolt</focim></h1>
+<div class="mt-5"></div>    </div>
     
     
     <div class="text-justify">
-        <h2 class="display-4">Alcím H2</h2>
-        <h3 class="display-6">Al al cím h3</h3>
+        <h2 class="display-4">Mi az a Thunderbolt?</h2>
+        <h3 class="display-6">A kezdetek</h3>
         <p>
-            Bekezdés <b>A kábel neve rövidítve</b> <i>(Rövidítés jelentése angolul majd magyarul)</i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ut quidem distinctio deleniti consequuntur provident quod et sit. Ducimus unde aperiam hic repellat praesentium illo amet alias consequatur repudiandae ullam?
+            A <b>Thunderbolt</b>-ot <i>(jelentése: villámcsapás, korábbi kódneve: Light Peak)</i> az Intel fejlesztette ki egy Apple-ös kollaboráció keretein belül. A felhasználókhoz 2011 Februárjában jutott el. A PCIe (Peripheral Component Interconnect Express magyarul Periférikus Kiegészítő Összekapcsoló) és a DisplayPort (továbbiakban DP) együttes alkalmazására épül és még tápellátást is betölt, mindezt egyetlen kábelen keresztül. Eleinte csak a MAC gépeken volt megfigyelhető, viszont mára széleskörben is elterjedt a használata.
         </p>
         <figure class="figure"> 
-            <img class="figure-img img-fluid rounded img-kocka" src="img/usbA_B.jpg" alt="USB B és A"> 
+            <img class="figure-img img-fluid rounded img-kocka" src="img/Thunderbolt_Technology_model_1_E.png" alt="A Thunderbolt működési elve"> 
             <figcaption class="figure-caption text-end">
-              <i>Kép és a (<a href="http://" class="alplink" target="_blank">Forráshoz egy név és egy link!</a>)</i>
+              <i>A Thunderbolt működési elve (Forrás: <a href="https://en.wikipedia.org/wiki/Thunderbolt_(interface)" class="alplink" target="_blank">Wikipédia</a>)</i>
             </figcaption> 
         </figure>
-        <h3 class="display-6">Al al cím h3</h3>
         <p>
-            Bekezdés <b>A kábel neve rövidítve</b> <i>(Rövidítés jelentése angolul majd magyarul)</i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ut quidem distinctio deleniti consequuntur provident quod et sit. Ducimus unde aperiam hic repellat praesentium illo amet alias consequatur repudiandae ullam?
+            A fejlesztés alapja eredetileg a Light Peak néven ismert optikai csatlakozó. Az Intel ezt egy nagyon alacsony (8 nanomásodperces) késleltetési idejő és magas (10Gbit/s) sebességű adatátviteli kábelnek tervezte. Mivel optikai kábelről van szó, így üvegszálaz, ami könyen szérül, és drága. Ezenkívül energiát sem tud továbbítani mondjuk ez könnyen orvosolható lehetett volna, egy az optika szál mellett elszigetelten végighúzott vezetékkel. 
         </p>
         <figure class="figure"> 
-            <img class="figure-img img-fluid rounded img-kocka" src="img/usbA_B.jpg" alt="USB B és A"> 
+            <img class="figure-img img-fluid rounded img-kocka" src="img/lightpeak.jpg" alt="Thunderbolt - Ethernet átalakító"> 
             <figcaption class="figure-caption text-end">
-              <i>Kép és a (<a href="http://" class="alplink" target="_blank">Forráshoz egy név és egy link!</a>)</i>
+              <i>Thunderbolt - Ethernet átalakító (Forrás: <a href="https://www.hwsw.hu/hirek/45936/intel-light-peak-usb-3-0-optikai-interfesz.html" class="alplink" target="_blank">Hwsw</a>)</i>
             </figcaption> 
         </figure>
-        <h2 class="display-4">Alcím H2</h2>
-        <h3 class="display-6">Al al cím h3</h3>
+        <h2 class="display-4">Thunderbolt verziói</h2>
         <p>
-            Bekezdés <b>A kábel neve rövidítve</b> <i>(Rövidítés jelentése angolul majd magyarul)</i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ut quidem distinctio deleniti consequuntur provident quod et sit. Ducimus unde aperiam hic repellat praesentium illo amet alias consequatur repudiandae ullam?
+            A Thunderbolt 1 és 2 a ugyanazt a csatlakozót használja, mint a Mini DisplayPort.
+        </p>
+        <p>
+            A Thunderbolt 3 és 4 áttért az USB C csatlakozó használatára, de nem összekeverendők. A kábel teljes mértékben kompatibilis az USB C vel, tehát egy USB C-s eszközt csatlakoztathatunk Thunderbolhoz. Fordítva azonban nem így van, a Thunderboltos eszközök nem fognak működni az USB C-hez csatolva. A képesek 40 Gbit/s-ra azaz 5GB/s sebességre.
+
+            <ul class="nagylista">
+                <li class="nagylista">Thunderbolt 1: 2011-ben jelent meg, DP csatlakozót használ, maximum 10Gbit/s adatátviteli sebesség.</li>
+                <div class="mt-2"></div>
+                <li class="nagylista">Thunderbolt 2: 2013-ban jelent meg, DP csatlakozót használ, maximum 20Gbit/s adatátviteli sebesség. DP 1.2 támogatása képes egy monitora 4K-s jel vagy két monitorra QHD-s jel továbbítására.</li>
+                <div class="mt-2"></div>
+                <li class="nagylista">Thunderbolt 3: 2015-ben jelent meg, USB-C csatlakozót használ, maximum 40Gbit/s adatátviteli sebesség. DP 1.4 HBR3 támogatása képes 4K 60Hz-s jel továbbítására akár 2 monitoron, vagy 1 monitoron 4K 120Hz / 5K 60Hz-re. USB 4 támogatás.</li>
+                <div class="mt-2"></div>
+                <li class="nagylista">Thunderbolt 4: 2020-ban jelent meg, USB-C csatlakozót használ, maximum 80Gbit/s adatátviteli sebesség. DP 2.0 támogatása képes 8K 60Hz-s jel továbbítására akár 2 monitoron, vagy 1 monitoron 16K 60Hz-re. USB 4 támogatás. Lehetőség van “Thunderbolt Alternate Mode” (Tunderbolt Alternatív Mód) támogatású USB Hunokat használni. Ezek a HUBok visszamenőlegesen támogatják a Thunderbolt 3-at.</li> 
+            </ul>
+        </p>
+        <h2 class="display-4">A Thunderbot használata</h2>
+        <p>
+            A Thunderboltot használják külső adattárolók, meghajtók tárolók, monitorok, TV-k és egyéb eszközök csatlakozására. Manapság jellemzően külső videókártya (EVGA) dokkolóknál alkalmazzák. 
         </p>
         <figure class="figure"> 
-            <img class="figure-img img-fluid rounded img-kocka" src="img/usbA_B.jpg" alt="USB B és A"> 
+            <img class="figure-img img-fluid rounded" src="img/egpu.png" alt="Külső Videókártya használata"> 
             <figcaption class="figure-caption text-end">
-              <i>Kép és a (<a href="http://" class="alplink" target="_blank">Forráshoz egy név és egy link!</a>)</i>
+              <i>Külső Videókártya használata (Forrás: <a href="https://egpu.io/forums/builds/2020-15-dell-xps-15-9500-gtx1650ti-10th6ch-gtx-3070-32gbps-tb3-razer-core-x-chroma-win10-21h1/" class="alplink" target="_blank">eGPU.io</a>)</i>
+            </figcaption> 
+        </figure>
+        <figure class="figure"> 
+            <img class="figure-img img-fluid rounded img-kocka" src="img/Promise-Tech-Pegasus2-R6-DAS.png" alt="USB B és A"> 
+            <figcaption class="figure-caption text-end">
+              <i>Külső merevlemez dokkoló (Forrás: <a href="https://en.wikipedia.org/wiki/Thunderbolt_(interface)" class="alplink" target="_blank">Wikipédia</a>)</i>
             </figcaption> 
         </figure>
         <div class="container">
@@ -128,11 +148,11 @@
             <div class="row">
                 <div class="ajanlolistaelem col-md-4">
                     <div class="card">
-                        <img src="img/usbA_B.jpg" alt="test" class="card-img-top">
+                        <img src="img/thunderboltAtalakito.webp" alt="test" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title ajanlo-title">Card Title</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quibusdam.</p>
-                            <a href="#" class="btn color-white a-gomb" target="_blank">Megnézem</a>
+                            <h5 class="card-title ajanlo-title">Thunderbolt átalakító</h5>
+                            <p class="card-text">Thunderbolt 3 átalakító USB 3.1Gen1 C, 3.2Gen1 A, és HDMI portá. Alkalmas 4K képátvitelre.</p>
+                            <a href="https://www.emag.hu/thunderbolt-3-hub-usb-3-1-c-tipusu-hdmi-4k-atalakito-usb-3-0-es-c-tipusu-usb-hope-r-ctu3huhp/pd/DQQ28BMBM/?cmpid=77032&gclid=CjwKCAiAksyNBhAPEiwAlDBeLNLzJ6sfOOqHpNmWVkNXTjML7UiXds5NsUUesWT5d9Q1OBkS9PYjNRoCKgMQAvD_BwE" class="btn color-white a-gomb" target="_blank">Megnézem</a>
                         </div>
                     </div>
                     <div class="mt-3"></div>

@@ -19,6 +19,8 @@ html {
     font-size: calc(0.575rem + 1.5vw);
     position: relative;
     min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 @media (min-width: 768px) {
     html {
@@ -26,14 +28,21 @@ html {
     }
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    }
+
 nav {
     font-family: 'Nunito', sans-serif;
-}    
+} 
 
 #maindiv {
     padding-top: 2.5rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+    text-align: justify;
 }
 
 @media (min-width: 1200px) {
@@ -80,11 +89,22 @@ color: #03cfd6;
 p {
     font-size: 1.2rem;
     text-indent: 2rem;
-}    
+}
+
+.nagylista {
+    font-size: 1.2rem;
+    text-indent: 1rem;
+    text-align: justify; 
+}
 
 figure {
     margin-bottom: 4.5rem;
-}    
+}
+
+.mitjelent {
+    color: skyblue;
+    text-decoration: underline;
+}
 
 .img-kocka {
     width: 30rem;

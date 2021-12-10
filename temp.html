@@ -9,138 +9,29 @@
     <link rel="stylesheet" href="tatar.css">
 </head>
 <body>
-<div class="text-center">
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum nulla voluptatum tempore ex eveniet dolor maxime illum porro rerum. Perferendis cum sapiente laborum obcaecati eligendi facilis et dolores pariatur recusandae!</p>
-    <a href="#" class="neon-link">
-      <span class="neon-link-span"></span>
-      <span class="neon-link-span"></span>
-      <span class="neon-link-span"></span>
-      <span class="neon-link-span"></span>
-      Neon Button
-    </a>
-</div>
+<p></p>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+    Tooltip on top
+  </button>
+
+  <span class="tt" data-bs-placement="bottom" title="valami"></span>
 
 
-  <p>Amikor valamelyik eszközünkhöz új internet kábelre van szükség, általában rákeresünk, hogy hol és milyen áron szerezhetjük be ezeket. Az első találatok gyors áttekintése után rádöbbenünk, hogy ezeknek a kábeleknek is több fajtája van, amelyekről legtöbb esetben annyit tudunk, hogy Cat5e vagy Cat6, esetleg Cat7. De mit is jelentenek ezek a rövidítések és számok?</p>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  <p>Munkám során több ügyfelem kérdezte már, hogy milyen kábelt vegyen otthonra, vegyen-e egyáltalán kábelt. Különböző célokra különböző megoldások válhatnak be a legjobban, de legegyszerűbb, ha bemutatom a fő típusokat. A már említett "Cat" az angol kategória szó rövidítése. Az eszközök fejlődésével és az egyre növekvő adatforgalommal folyamatosan fejlődtek az internet kábelek is. Szerencsére - mint az informatika legtöbb területén - itt is alapelv, hogy az újabb megoldások kompatibilisek legyenek elődeikkel, így nem kell aggódni, hogy egyik-másik új eszközünkhöz nem lesznek jók meglévő vezetékeink. Azonban az, hogy milyen mértékű adatforgalmat tudunk rajtuk bonyolítani már komolyan befolyásolhatja választásunkat.</p>
+<script>
 
-  <h2 class="display-6">Cat5</h2>
-  <p>A Cat5-ről nem is érdemes túl sok szót ejteni. Egy jelentősen elavult típus, amelyet akkor sem érdemes használnunk, ha ingyen adják. Persze, ha ilyen van otthon és gyorsan szükség van egy vezetékre, akkor rövid időre használhatjuk, de mindenképp cseréljük le egy korszerűbb megoldásra!</p>
-  <h2 class="display-6">Cat5e</h2>
-  <p>Ez a típus jelenleg a legelterjedtebb. A korszerű változatok 1000 mbps (megabit per second, azaz megabit másodpercenként) sebességre képesek. Akár 100 méter hosszú vezetéket is adatvesztés nélkül tudunk használni. Általános felhasználók között a legtöbb alkalmazás probléma nélkül működik vele, nem beszélve arról, hogy a forgalomban lévő eszközök többsége még nem is képes nagyobb sebességre. Azok számára jó megoldás, akiknek otthoni vagy kis irodai eszközeihez van szüksége olcsó, de hatékony megoldásra. Azok viszont, akik most terveznek egy nagyobb mértékű fejlesztést, mindenképp olvassanak tovább!</p>
-  <h2 class="display-6">Cat6</h2>
-  <p>Az egyre növekvő adatforgalom és a nagyméretű médiatartalmak miatt vált szükségessé hatékonyabb kábelek kialakítása. A Cat6-os vezetékek már 10 gbps (Cat5e tízszerese) sebességre is képesek, de általában csak 55 méterig megbízhatóak. Legtöbbször fix elhelyezésű (padlóban, falakban) vezetékeknél érdemes ezt használni, de nagy adatforgalmú eszközöknél is hasznos lehet. Fontos, hogy ehhez olyan eszközökre van szükség, amelyek kezelik a 10 gigabites sebességet, különben ugyan úgy működnek, mint a Cat5e társaik.</p>
-  <h2 class="display-6">Cat6a (vagy esetenként hibásan Cat6e)</h2>
-  <p>A Cat6 "továbbfejlesztett" változata, amelyet már 100 méterig tudunk alkalmazni. Épületek "jövő-biztos" kábelezésére kitűnően alkalmas.</p>
-  <h2 class="display-6">Cat7</h2>
-  <p>Jelenleg ez a legkorszerűbb típus. Sokkal nagyobb sávszélességre képes, de használata még elég ritka. Nem is minden szabvány fogadja még el hivatalosan és a csatlakozója is másmilyen - bár teljesen kompatibilis elődeivel!</p>
-  <p>Összegzésül: Azoknak, akik asztali számítógépüket, esetleg hálózati nyomtatójukat szeretnék routerükkel összekötni tökéletes megoldást jelent a Cat5e. Azok számára, akik eszközeiket is folyamatosan fejlesztik, vagy otthoni hálózatukat szeretnék korszerűsíteni, a Cat6 vezeték lehet a megfelelő megoldás. Fontos azonban, hogy az eszközök és kábelek sorozatában a leggyengébb határozza meg a teljes adatátviteli sebességet, tehát 1 gigabites eszközökkel nem tudunk 10 gigabites adatkapcsolatot bonyolítani a Cat6-os kábeleink ellenére.</p>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
 
-    <h1>Pixar mozifilmek</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Film angol címe</th>
-                <th>Film magyar címe</th>
-                <th>Megjelenés</th>
-                <th>.</th>
-            </tr>
-        </thead>
+  const tooltips = document.querySelectorAll('.tt')
+  tooltips.forEach(t => {
+    new bootstrap.Tooltip(t)
+  })
 
-        <tbody>
-            <tr>
-                <th>.</th>
-                <th>.</th>
-                <th>.</th>
-                <tr><span><a href="">További információ</a></span></tr>
-            </tr>
-        </tbody>
-    </table>
-
-
-
-    <div class="osszehasonlitas">
-        <table id="tablazat" class="table">
-            <thead>
-                <tr>
-                    <th colspan="4" scope="col">Ajánlott termékek</th>
-                </tr>
-              <tr>
-                <th scope="col">USB kábel tíbpusa</th>
-                <th scope="col">USB szabvány verzió</th>
-                <th scope="col">Csatlakozók típusa</th>
-                <th scope="col">Elérghetősége</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Micro USB adatkábel, átalakító</th>
-                <td><span class="badge bg-success text-light">2.0</span></td>
-                <td>USB A - Micro USB</td>
-                <td><a href="https://kabel-csatlakozo.arukereso.hu/f:acme,adata,samsung,silicon-power,xiaomi/?st=MicroUSB&gclid=Cj0KCQiAtJeNBhCVARIsANJUJ2GUnvcgrQDfc01eog6nDJ7nfIE7K2a3wIdXORAXcZIfUb-g_DOuwFYaApavEALw_wcB" target="_blank" role="button" class="btn btn-warning ">Vásárlás</a></td>
-              </tr>
-              <tr>
-                <th scope="row">USB-s SATA átalakító</th>
-                <td><span class="badge bg-info text-light">3.2 Gen2x1</span></td>
-                <td>USB A - SATA 3.0</td>
-                <td><a href="#" target="_blank" role="button" class="btn btn-warning ">Vásárlás</a></td>
-              </tr>
-              <tr>
-                <th scope="row">USB Type-C kábel telefonokhoz</th>
-                <td><span class="badge bg-info text-light">3.2 Gen2x1</span></td>
-                <td>USB A - Type-C</td>
-                <td><a href="#" target="_blank" role="button" class="btn btn-warning ">Vásárlás</a></td>
-              </tr>
-              <tr>
-                <th scope="row">USB kábel Külső SSD-hez</th>
-                <td><span class="badge bg-info text-light">3.2 Gen2x1</span></td>
-                <td>Type-C - Type-C</td>
-                <td><a href="#" target="_blank" role="button" class="btn btn-warning ">Vásárlás</a></td>
-              </tr>
-              <tr>
-                <th scope="row">USB kábel nagy sebességű eszközökhöz</th>
-                <td><span class="badge bg-danger text-light">4.0</span></td>
-                <td>Type-C - Type-C</td>
-                <td><a href="https://www.alza.hu/alzapower-usb-c-usb-c-usb4-5a-100w?dq=5666478" target="_blank" role="button" class="btn btn-warning ">Vásárlás</a></td>
-              </tr>
-            </tbody>
-          </table>
-    </div>
-
-</div>
-</div>
-
-<footer class="bg-light text-center text-lg-start">
-<!-- Grid container -->
-<div class="container p-4">
-    <!--Grid row-->
-    <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <img src="img/LogoFinal.png" alt="Codászok Főoldalldalldalldalldalldalldalldalldalldalldalldal" style="width: 20rem;">
-        </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Codaszok</h5>
-
-            <p>
-                A weboldal ezen részét a Codaszok csapata készítette, Tatár Mátyás Bence, Tóth Bertala, és Tőzsér Barnabás részvételével. 
-            </p>
-        </div>
-    <!--Grid column-->
-  </div>
-  <!--Grid row-->
-</div>
-<!-- Grid container -->
-
-<!-- Copyright -->
-<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-  © 2021 Copyright: <a class="text-dark" href="https://tatarmb4s.github.io/codaszok-kabelek">Codaszok.tk</a>
-</div>
-<!-- Copyright -->
-</footer>
+</script>
 </body>
 </html>
