@@ -9,11 +9,18 @@ root {
 }
 
 body {
-margin-bottom: 60px;
-font-family: 'Hahmlet', serif;
-background-color: rgb(0, 24, 37);
-color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    font-family: 'Hahmlet', serif;
+    background-color: rgb(0, 24, 37);
+    color: rgb(255, 255, 255);
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 html {
     font-size: calc(0.575rem + 1.5vw);
