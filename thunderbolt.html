@@ -93,6 +93,9 @@
         <p>
             A <b>Thunderbolt</b>-ot <i>(jelentése: villámcsapás, korábbi kódneve: Light Peak)</i> az Intel fejlesztette ki egy Apple-ös kollaboráció keretein belül. A felhasználókhoz 2011 Februárjában jutott el. A PCIe (Peripheral Component Interconnect Express magyarul Periférikus Kiegészítő Összekapcsoló) és a DisplayPort (továbbiakban DP) együttes alkalmazására épül és még tápellátást is betölt, mindezt egyetlen kábelen keresztül. Eleinte csak a MAC gépeken volt megfigyelhető, viszont mára széleskörben is elterjedt a használata.
         </p>
+        <p>
+            <b>A Tunderbolt-nak a 3.0 verzióig volt egy komoly <span class="kiemelt">sebezhetősége</span></b>, melyen kereszül fizikai konaktust létesítve a céleszközzel a támadók be tudtak jutni a rendszerbe, és onnan adatokat lopni. Mindezt a jelszó beütése nélkül, pusztán a hardwaren át.
+        </p>
         <figure class="figure"> 
             <img class="figure-img img-fluid rounded img-kocka" src="img/Thunderbolt_Technology_model_1_E.png" alt="A Thunderbolt működési elve"> 
             <figcaption class="figure-caption text-end">
@@ -113,7 +116,8 @@
             A Thunderbolt 1 és 2 a ugyanazt a csatlakozót használja, mint a Mini DisplayPort.
         </p>
         <p>
-            A Thunderbolt 3 és 4 áttért az USB C csatlakozó használatára, de nem összekeverendők. A kábel teljes mértékben kompatibilis az USB C vel, tehát egy USB C-s eszközt csatlakoztathatunk Thunderbolhoz. Fordítva azonban nem így van, a Thunderboltos eszközök nem fognak működni az USB C-hez csatolva. A képesek 40 Gbit/s-ra azaz 5GB/s sebességre.
+            A Thunderbolt 3 és 4 áttért az USB C csatlakozó használatára, de nem összekeverendők. A kábel teljes mértékben kompatibilis az USB C vel, tehát egy USB C-s eszközt csatlakoztathatunk Thunderbolhoz. Fordítva azonban nem így van, a Thunderboltos eszközök nem fognak működni az USB C-hez csatolva. Képesek 40 Gbit/s-ra azaz 5GB/s sebességre.
+
 
             <ul class="nagylista">
                 <li class="nagylista">Thunderbolt 1: 2011-ben jelent meg, DP csatlakozót használ, maximum 10Gbit/s adatátviteli sebesség.</li>
@@ -127,7 +131,8 @@
         </p>
         <h2 class="display-4">A Thunderbot használata</h2>
         <p>
-            A Thunderboltot használják külső adattárolók, meghajtók tárolók, monitorok, TV-k és egyéb eszközök csatlakozására. Manapság jellemzően külső videókártya (EVGA) dokkolóknál alkalmazzák. 
+            A Thunderboltot használják külső adattárolók, meghajtók tárolók, monitorok, TV-k és egyéb eszközök csatlakozására. Manapság jellemzően külső videókártya (<span class="tt mitjelent" data-bs-placement="bottom" title="External Graphichs Process Unit, avagy Külső videókártya, amelyeket olyan notebookokhoz használnak amely nem rendelkezik elég jó dedikált videókártyával.">
+                eGPU</span>) dokkolóknál alkalmazzák. 
         </p>
         <figure class="figure"> 
             <img class="figure-img img-fluid rounded" src="img/egpu.png" alt="Külső Videókártya használata"> 
@@ -182,5 +187,11 @@
     </div>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+    })
+</script>
 </body>
 </html>
