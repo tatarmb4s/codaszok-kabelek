@@ -9,6 +9,15 @@
     margin-bottom: auto;
 }
 
+.cim {
+    display: inline;
+}
+@media (max-width: 529px) {
+    .cim {
+        display: block;
+    }
+  }
+
 .ycenter {
     margin-top: 10rem;
 }
