@@ -1,16 +1,9 @@
 # Codászok kábelekről szóló leírása
  A Neumann János Informatikai technikum 2021-es tanévében a Számitógép alkatrészeinek kábeles projektje.
 
- # Tennivalók:
-<!-- blank line -->
-----
-<!-- blank line -->
-## Menüpontok:
- - Képátviteli kábelek
- - USB Kábelek
- - Hálózati kábelek
- - Táp kábelek
- - (Egyéb kábelek, de ezen még gonlokozom hogy mi lehet bele)
+Ha kábelekkel kapcsolatos információkat szeretnél megtudni akkor ez lesz a te oldalad. Mindenféle fajta kabelről leírjuk amit tudni kell róluk. Remélem tudunk segíteni a hiányzó vagy hiányos információk megszerzésére illetve kiegészítésére.
+
+Lesz szó, átalakítókról, amelyek ara szolgálnak, hogy egy csatlakozóból más félét csináljanak. Legy szó dokkolókról, amyelek különböző eszközöket tesznek alkalmassá arra hogy csatlakozzanak egy kábelen keresztül valahova.
 
 ## Fontok:
 
